@@ -1,0 +1,9 @@
+const PAINT_BALLS = 'CREATE_BALLS';
+const ADD_COLOR = 'ADD_COLOR';
+const MOVE_BALLS = 'MOVE_BALLS';
+
+export {
+    PAINT_BALLS,
+    ADD_COLOR,
+    MOVE_BALLS
+};
