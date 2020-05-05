@@ -18,7 +18,7 @@ export default class Ball {
         this.paint();
     }
     paint () {
-        const texture = new PIXI.Texture.from(`public/img/${this.color}.png`);
+        const texture = new PIXI.Texture.from(`https://vodkamishka.github.io/connective-games/public/img/${this.color}.png`);
         const img = new PIXI.Sprite(texture);
         img.x = this.x*50 ;
         img.y = this.y*50 ;
