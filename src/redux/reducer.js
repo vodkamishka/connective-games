@@ -64,12 +64,9 @@ const reducer = (action, state = initialState) => {
         const oldPosX = x;
         const oldPosY = y;
 
-        console.log(array[x][y], array[x-1][y-1], array[x-1][y+1])
 
         let col = array[x][y].color;
-
-        let promise = new Promise (res => {})
-     
+        
         if (upX - downX === 0 && upY - downY === 0) return;
         else if (Math.abs(downX - upX) > Math.abs(downY - upY)) {
           
